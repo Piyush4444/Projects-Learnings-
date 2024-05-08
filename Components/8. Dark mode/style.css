@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:wght@300;400;500;600;700&family=Oswald:wght@500&display=swap');
+
+
+
+
+
+.darktheme {
+    background-color: #000;
+    color: #fff;
+    transition: all 1s;
+}
+
+.lighttheme {
+    background-color: #fff;
+    color: #000;
+    transition: all 1s;
+}
+
+
+* {
+    box-sizing: border-box;
+    /* background-color: white; */
+    margin: 0;
+    padding: 0;
+    color: var(--secondry);
+    font-family: 'Krub', sans-serif;
+}
+
+/* .warapper {
+    background-color: var(--primary);
+} */
+
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4vw;
+    width: 100%;
+    padding: 0 4vw;
+
+
+}
+
+.nav img {
+    height: 4.4vw;
+    width: 5.8vw;
+    margin-top: 1vw;
+}
+
+.nav-containt {
+    display: flex;
+    gap: 2vw;
+    align-items: baseline;
+}
+
+.nav-containt a {
+    text-decoration: none;
+
+}
+
+.nav-containt a:hover {
+    color: #FF4321;
+}
+
+.nav-containt h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1vw;
+}
+
+.nav-containt i {
+    font-size: 1.5vw;
+    cursor: pointer;
+}
+
+
+
+/* main style  */
+
+.main {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+.main-containt {
+    height: 100%;
+    width: 50%;
+}
+
+.containt {
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5vw;
+    padding: 7.5vw 5vw 0 6.5vw;
+}
+
+.containt h1 {
+    font-size: 3.8vw;
+}
+
+.containt h1 span {
+    color: #FF4321;
+}
+
+.containt p {
+    font-size: 1.2vw;
+}
+
+
+
+/* butoon style  */
+.bn62 {
+    color: #FF4321;
+    background-color: #f0c3bc;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3em;
+    width: 8em;
+    font-size: large;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.icons {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 6.6vw;
+    gap: .6vw;
+    font-size: 2vw;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #FF4321;
+}
+
+/* dp style  */
+
+.dp {
+    height: 100%;
+    width: 50%;
+
+    /* background-color: orangered; */
+}
+
+.dp img {
+    position: absolute;
+    top: 53%;
+    left: 60%;
+    /* bottom: 0; */
+    transform: translate(-10%, -47%);
+    height: 40vw;
+    width: 28vw;
+    transition: left 1s;
+    bottom: 40%;
+}
+
+
+
+
+
+.dp:hover .main-img {
+    left: 63%;
+}

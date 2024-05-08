@@ -1,0 +1,24 @@
+html body {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+
+}
+
+h3 {
+
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.rectangle {
+    border: 1px solid black;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+}
